@@ -1,13 +1,13 @@
 
 :root {
-  --black: #0e0e0e;
-  --coal: #161616;
-  --graphite: #1f1f1f;
-  --line: #333333;
-  --grey: #9a9a9a;
-  --silver: #d8d8d8;
-  --white: #f4f4f2;
-  --gold: #c9a24a;
+  --black: #0B1628;
+  --coal: #10213A;
+  --graphite: #172B45;
+  --line: #293D57;
+  --grey: #A0AEC0;
+  --silver: #D8E1ED;
+  --white: #F4F7FB;
+  --gold: #C9A24A;
   --serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
   --sans: "Inter", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
 }
