@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materi Komputasi Awan | Zahran Alfa Rizzy</title>
+  <meta name="description" content="Ringkasan materi komputasi awan: pengertian, SaaS, PaaS, IaaS, manfaat, dan risiko.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Zahran Alfa Rizzy</a>
+      <nav class="nav" aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a>
+        <a href="materi.html" aria-current="page">Materi Komputasi Awan</a>
+        <a href="portofolio.html">Portofolio Tugas</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-head wrap">
+      <h1>Materi Komputasi Awan</h1>
+      <p>Catatan ringkas yang saya susun dari perkuliahan Komputasi Awan, ditulis dengan bahasa sehari-hari agar mudah dipahami.</p>
+    </div>
+
+    <section class="section wrap">
+      <h2>Pengertian komputasi awan</h2>
+      <p>
+        Komputasi awan (cloud computing) adalah cara memakai sumber daya komputer, seperti ruang penyimpanan,
+        server, basis data, dan aplikasi, melalui internet. Pengguna tidak perlu membeli dan merawat
+        perangkat keras sendiri. Semua sumber daya itu berada di pusat data milik penyedia layanan,
+        lalu disewa atau dipakai sesuai kebutuhan.
+      </p>
+      <p>
+        Contoh yang paling dekat dengan mahasiswa adalah Google Drive untuk menyimpan file, Google Docs untuk menulis
+        dokumen, dan GitHub Pages untuk menayangkan website. Semuanya bisa dibuka dari perangkat mana saja
+        selama ada koneksi internet.
+      </p>
+    </section>
+
+    <section class="section wrap">
+      <h2>Tiga model layanan</h2>
+      <p>Perbedaan ketiganya terletak pada seberapa banyak bagian yang diurus penyedia layanan dan seberapa banyak yang diurus pengguna.</p>
+      <div class="layanan">
+        <article>
+          <h3>SaaS <span class="kepanjangan">Software as a Service</span></h3>
+          <div>
+            <p>Aplikasi yang sudah jadi dan langsung dipakai lewat browser atau aplikasi. Penyedia mengurus server, pembaruan, dan keamanan. Pengguna hanya memakai fiturnya.</p>
+            <p class="contoh"><strong>Contoh:</strong> Google Drive, Gmail, Google Docs, Microsoft 365.</p>
+          </div>
+        </article>
+        <article>
+          <h3>PaaS <span class="kepanjangan">Platform as a Service</span></h3>
+          <div>
+            <p>Platform siap pakai untuk membuat dan menjalankan aplikasi. Pengembang cukup menulis kode, sedangkan sistem operasi, server, dan jaringan diurus oleh penyedia.</p>
+            <p class="contoh"><strong>Contoh:</strong> Google App Engine, Heroku, Firebase.</p>
+          </div>
+        </article>
+        <article>
+          <h3>IaaS <span class="kepanjangan">Infrastructure as a Service</span></h3>
+          <div>
+            <p>Infrastruktur dasar berupa server virtual, penyimpanan, dan jaringan yang disewa. Pengguna mengatur sendiri sistem operasi dan aplikasinya, jadi kendalinya paling luas tetapi tanggung jawabnya juga paling besar.</p>
+            <p class="contoh"><strong>Contoh:</strong> Amazon EC2, Google Compute Engine, Microsoft Azure Virtual Machines.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <div class="dua-kolom">
+        <div>
+          <h3>Manfaat</h3>
+          <ul class="daftar">
+            <li><strong>Hemat biaya.</strong> Tidak perlu membeli server mahal, cukup membayar sesuai pemakaian.</li>
+            <li><strong>Bisa diakses di mana saja.</strong> Data dan aplikasi dibuka dari laptop maupun ponsel.</li>
+            <li><strong>Mudah ditambah kapasitasnya.</strong> Sumber daya dinaikkan atau diturunkan sesuai kebutuhan.</li>
+            <li><strong>Ada cadangan data.</strong> File tersimpan di banyak lokasi sehingga lebih aman dari kerusakan perangkat.</li>
+            <li><strong>Memudahkan kerja bersama.</strong> Beberapa orang dapat mengedit dokumen yang sama secara bersamaan.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Risiko</h3>
+          <ul class="daftar risiko">
+            <li><strong>Bergantung pada internet.</strong> Tanpa koneksi, layanan sulit digunakan.</li>
+            <li><strong>Risiko kebocoran data.</strong> Data yang dibagikan secara publik atau akun yang diretas dapat dilihat orang lain.</li>
+            <li><strong>Ketergantungan pada penyedia.</strong> Jika layanan berhenti atau berubah, pengguna ikut terdampak.</li>
+            <li><strong>Kontrol terbatas.</strong> Pengguna tidak bisa mengatur semua bagian sistem, terutama pada SaaS.</li>
+            <li><strong>Biaya bisa membengkak.</strong> Pemakaian yang tidak dipantau dapat membuat tagihan naik.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <div class="catatan">
+        <h3>Contoh nyata: website ini</h3>
+        <p>
+          Website ini disimpan di repositori GitHub dan dipublikasikan dengan GitHub Pages, layanan hosting cloud
+          untuk website statis. Karena berkasnya berjalan di server GitHub, website tetap bisa dibuka
+          walaupun laptop saya dimatikan.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span><strong>Zahran Alfa Rizzy</strong>, NIM 23.53.027117</span>
+      <span>Tugas Komputasi Awan, Universitas Muhammadiyah Palangkaraya, 2026</span>
+    </div>
+  </footer>
+
+</body>
+</html>
